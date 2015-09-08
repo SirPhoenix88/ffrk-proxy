@@ -1,6 +1,6 @@
 {
   "name": "ffrk-proxy",
-  "version": "0.5.3",
+  "version": "0.5.4-jp_test",
   "private": true,
   "start": "node bin/app.js",
   "scripts": {

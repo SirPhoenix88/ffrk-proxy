@@ -5,8 +5,8 @@ var caCert = fs.readFileSync(__dirname + '/../cert/root/rootCA.crt', 'utf8');
 var caKey = fs.readFileSync(__dirname + '/../cert/root/rootCA.key', 'utf8');
 
 cert.generateForHost(
-    '*.denagames.com',
-    'google.com, *.google.com, cloudfront.net, *.cloudfront.net, denagames.com, *.denagames.com, googleapis.com, *.googleapis.com',
+    '*.mbga.jp',
+    'google.com, *.google.com, cloudfront.net, *.cloudfront.net, mbga.jp, *.mbga.jp, denagames.com, *.denagames.com, googleapis.com, *.googleapis.com',
     caCert,
     caKey,
     Math.floor(Date.now() / 1000),
